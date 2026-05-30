@@ -43,6 +43,9 @@ on:
     tags:
       - 'v*'  # Triggers when you push a tag like v1.0.0
 
+permissions:
+  contents: write  # ← This is what allows creating releases
+
 jobs:
   build:
     runs-on: windows-latest
