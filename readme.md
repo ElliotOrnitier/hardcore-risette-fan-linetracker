@@ -1,0 +1,1 @@
+Memory reader to track rise lines for the "Hardcore Risette Fan" achiements in P4 Golden
