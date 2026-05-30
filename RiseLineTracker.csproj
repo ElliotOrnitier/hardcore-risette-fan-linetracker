@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- rise.tsv is embedded in the assembly so it ships inside the exe.
+         A rise.tsv placed next to the exe still takes precedence (see MainForm.LoadRiseLines). -->
+    <EmbeddedResource Include="rise.tsv" />
+  </ItemGroup>
+
+</Project>
