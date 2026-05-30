@@ -40,8 +40,11 @@ name: Build and Release
 
 on:
   push:
-    tags:
-      - 'v*'  # Triggers when you push a tag like v1.0.0
+    branches:
+      - main
+
+    #    tags:
+#      - 'v*'  # Triggers when you push a tag like v1.0.0
 
 
 
