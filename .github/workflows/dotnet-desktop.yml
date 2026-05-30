@@ -42,9 +42,8 @@ on:
   push:
     branches:
       - main
-
-    #    tags:
-#      - 'v*'  # Triggers when you push a tag like v1.0.0
+    tags:
+      - 'v*'  # Triggers when you push a tag like v1.0.0
 
 
 
