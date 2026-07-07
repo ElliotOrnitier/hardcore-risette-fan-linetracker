@@ -31,7 +31,7 @@ This achievement requires hearing 250 unique Rise battle lines. The tracker read
 ## Usage
 
 1. Download `RiseLineTracker.exe` from the [latest release](../../releases/latest)
-2. Run the exe as Administrator
+2. Run the exe
 3. Launch P4G and load a save file
 4. The tracker will auto-attach and begin updating
 
